@@ -16,17 +16,17 @@ namespace ConsoleApp1
                     int age = Convert.ToInt32(Console.ReadLine());
                     if (age >= 18)
                     {
-                        Console.Write("You have the right to vote");
+                        Console.Write($"Hello {name}. You have the right to vote");
                     }
                     else
                     {
-                        Console.WriteLine("You dont have the right to vote");
+                        Console.WriteLine($"Hello {name}. You dont have the right to vote");
                     }
                     break;
                 } catch
                 {
 
-                    Console.Write("Pleas enter your real age \n");
+                    Console.Write($"{name}! Pleas enter your real age \n");
                 }
             }
             
