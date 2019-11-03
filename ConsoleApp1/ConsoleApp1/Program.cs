@@ -34,7 +34,6 @@ namespace ConsoleApp1
                     Console.Write($"{name}! Pleas enter your real age \n");
                 }
             }
-            
         }
     }
 }
